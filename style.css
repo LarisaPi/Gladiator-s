@@ -246,57 +246,38 @@ nav {
     height: 700px;
 }
 
- form {
-    border-radius: 20px;
-    padding: 10px;
-    font-family: 'Roboto mono', monospace;
-    background-color:#ffffff;
- }
- label {
-    font-weight: bold;
- }
- 
- .foor a {
-    color: black;
-    font-size: 20px;
-    font-family: 'Roboto mono', monospace;
- }
- .main-button{
-    width: 110px;
-    height: 50px;
-    background: var(--color-primary);
-    display: grid;
-    align-items: center;
-  }
-  .main-button a {
-    font-weight: 700px;
-    font-size: 18px;
-    color: var(--color-light);
-    box-shadow: -11px 13px 36px -12px rgb(0,0,0,1);
-  }
-  .main-button a button:hover{
-      background-color: var(--color-light);
-      transform: scale(1.1);
+.label{
+    display: inline-table;
+    padding-left: 100px;
+    max-width: 20%;
+    margin-bottom: 120px; 
+    width: 200%; 
 }
+
+.blog-button{
+    background-color: var(--color-dark-yellow);
+    width: 70px;
+    height: 30px;
+    position: relative;
+    top: 370px;
+    left: 350px;
+}
+
 .texto1 {
-    font-size: 15px;
+    font-size: 10px;
     align-items: center;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    margin-top: 70px;
+    padding-left: 30px;
+    margin-bottom: 50px;
 }
-p{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
+
 #tabla{
     background-color: #ffffff;
-    font-size: 10px;
+    font-size: 10000px;
     font-family: 'Courier New', Arial, Helvetica, sans-serif;
     font-weight: bold;
-    font-style: italic;
-}
-.texto1 img{
-    display: grid;
-    width: 80%;
-    height: 30px;
-    align-items: center;
+   
 }
 .main-button1{
     width: 50px;
@@ -304,6 +285,7 @@ p{
     background: #FFBF00;
     display: grid;
     align-items: center;
+    font-style:normal;
   }
   .main-button1 a {
     font-weight: 10px;
@@ -315,5 +297,4 @@ p{
       background-color: var(--color-light);
       transform: scale(1.1);
 }
-
 
